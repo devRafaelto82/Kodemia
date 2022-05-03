@@ -1,0 +1,23 @@
+
+
+
+.layout {
+    font-size: var(--fs-base);
+    width: 100%;
+    max-width: var(--site-width);
+    margin: 0 auto;
+    display: grid;
+    gap: var(--layout-gap);
+    grid-template-columns: var(--layout);
+    padding: var(--layout-padding);
+    
+}
+
+.card {
+    border-radius: var(--radius-auto);
+    background: var(--card-bg);
+    color: var(--card-color);
+    box-shadow: 0 0 0 1px var(--card-border);
+    overflow-wrap: break-word;
+    overflow-wrap: anywhere;
+}
